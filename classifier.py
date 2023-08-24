@@ -11,7 +11,7 @@ Y = df['Species']
 
 #run = experiment.start_logging()
 
-X_train, X_test, y_train, y_test = train_test_split(X,Y, test_size= 0.40, shuffle=True)
+X_train, X_test, y_train, y_test = train_test_split(X,Y, test_size= 0.10, shuffle=True)
 
 
 #step1: initialise the model class
